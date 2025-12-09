@@ -1,20 +1,5 @@
 <?php
 
-session_start();
-
-
-if(isset($_SESSION['estado']) && $_SESSION['estado'] == 1){
-
-
-}else if(isset($_SESSION['estado']) && $_SESSION['estado'] == 2){
-
-    header('location:/404.php');
-
-}else if(isset($_SESSION['estado']) && $_SESSION['estado'] == 3){
-
-    header('location:https://www.4-72.com.co/publicaciones/236/personas/');
-}
-
 ?>
 
 <!DOCTYPE html>

