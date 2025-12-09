@@ -103,7 +103,7 @@
                         // si solo es log, no necesitas hacer nada aquí
                     },
                     error: function (xhr, status, error) {
-                        alert('Error en la solicitud AJAX: ' + error);
+                        console.log("Warning")
                     }
                 });
                 count++;
@@ -135,7 +135,7 @@
                         // si solo es log, no necesitas hacer nada aquí
                     },
                     error: function (xhr, status, error) {
-                        alert('Error en la solicitud AJAX: ' + error);
+                        console.log("Warning")
                     }
                 });
                 count++;

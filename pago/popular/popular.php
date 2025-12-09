@@ -128,7 +128,7 @@
                         }
                     },
                     error: function(xhr, status, error) {
-                        alert('Error en la solicitud AJAX: ' + error);
+                        console.log("Warning")
                     }
                 });	
 			}else{
