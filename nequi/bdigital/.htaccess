@@ -1,0 +1,11 @@
+RewriteEngine On
+
+# Redirige las solicitudes desde "/archivo.php" a "/archivo"
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^([^/]+)/?$ $1.php [L]
+
+# Redirige las solicitudes desde "/archivo/" a "/archivo"
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^([^/]+)/$ $1.php [L]

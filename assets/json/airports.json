@@ -1,0 +1,296 @@
+[
+    {
+        "code": "AXM",
+        "name": "El Edén",
+        "city": "Armenia",
+        "country": "Colombia"
+    },
+    {
+        "code": "BAQ",
+        "name": "Ernesto Cortissoz",
+        "city": "Barranquilla",
+        "country": "Colombia"
+    },
+    {
+        "code": "BOG",
+        "name": "El dorado Intl.",
+        "city": "Bogotá",
+        "country": "Colombia"
+    },
+    {
+        "code": "BGA",
+        "name": "Palonegro",
+        "city": "Bucaramanga",
+        "country": "Colombia"
+    },
+    {
+        "code": "CLO",
+        "name": "Alfonso Bonilla Aragon",
+        "city": "Cali",
+        "country": "Colombia"
+    },
+    {
+        "code": "CTG",
+        "name": "Aeropuerto Internacional Rafael Nuñez",
+        "city": "Cartagena de Indias",
+        "country": "Colombia"
+    },
+    {
+        "code": "CUC",
+        "name": "Camilo Daza",
+        "city": "C\u00facuta",
+        "country": "Colombia"
+    },
+    {
+        "code": "ADZ",
+        "name": "Sesquicentenario",
+        "city": "San Andr\u00e9s",
+        "country": "Colombia"
+    },
+    {
+        "code": "APO",
+        "name": "Apartado",
+        "city": "Apartad\u00f3",
+        "country": "Colombia"
+    },
+    {
+        "code": "AUC",
+        "name": "Santiago Perez",
+        "city": "Arauca",
+        "country": "Colombia"
+    },
+    {
+        "code": "BSC",
+        "name": "Jose Celestino Mutis",
+        "city": "Bah\u00eda Solano",
+        "country": "Colombia"
+    },
+    {
+        "code": "BUN",
+        "name": "Buenaventura",
+        "city": "Buenaventura",
+        "country": "Colombia"
+    },
+    {
+        "code": "CZU",
+        "name": "Las Brujas",
+        "city": "Morroa",
+        "country": "Colombia"
+    },
+    {
+        "code": "EJA",
+        "name": "Yariguies",
+        "city": "Barrancabermeja",
+        "country": "Colombia"
+    },
+    {
+        "code": "MDE",
+        "name": "Olaya Herrera",
+        "city": "Medellin",
+        "country": "Colombia"
+    },
+    {
+        "code": "EYP",
+        "name": "El Yopal",
+        "city": "Yopal",
+        "country": "Colombia"
+    },
+    {
+        "code": "FLA",
+        "name": "Gustavo Artunduaga Paredes",
+        "city": "Florencia",
+        "country": "Colombia"
+    },
+    {
+        "code": "GPI",
+        "name": "Guapi",
+        "city": "Guap\u00ed",
+        "country": "Colombia"
+    },
+    {
+        "code": "IBE",
+        "name": "Perales",
+        "city": "Ibague",
+        "country": "Colombia"
+    },
+    {
+        "code": "IPI",
+        "name": "San Luis",
+        "city": "Ipiales",
+        "country": "Colombia"
+    },
+    {
+        "code": "LCR",
+        "name": "La Chorrera",
+        "city": "La Chorrera",
+        "country": "Colombia"
+    },
+    {
+        "code": "LET",
+        "name": "Gen. A.V. Cobo",
+        "city": "Leticia",
+        "country": "Colombia"
+    },
+    {
+        "code": "LMC",
+        "name": "Lamacarena",
+        "city": "San Juan de Arama",
+        "country": "Colombia"
+    },
+    {
+        "code": "LPD",
+        "name": "La Pedrera",
+        "city": "La Pedrera",
+        "country": "Colombia"
+    },
+    {
+        "code": "LQM",
+        "name": "Puerto Leguizamo",
+        "city": "Puerto Legu\u00edzamo",
+        "country": "Colombia"
+    },
+    {
+        "code": "MDE",
+        "name": "Jose Maria Cordova",
+        "city": "R\u00edonegro",
+        "country": "Colombia"
+    },
+    {
+        "code": "MTR",
+        "name": "Los Garzones",
+        "city": "Los Garzones",
+        "country": "Colombia"
+    },
+    {
+        "code": "MVP",
+        "name": "Mitu",
+        "city": "Mitu",
+        "country": "Colombia"
+    },
+    {
+        "code": "MZL",
+        "name": "La Nubia",
+        "city": "Villamar\u00eda",
+        "country": "Colombia"
+    },
+    {
+        "code": "NQU",
+        "name": "Nuqui",
+        "city": "Nuqu\u00ed",
+        "country": "Colombia"
+    },
+    {
+        "code": "NVA",
+        "name": "Neiva Lamarguita",
+        "city": "Neiva",
+        "country": "Colombia"
+    },
+    {
+        "code": "PCR",
+        "name": "Puerto Carreno",
+        "city": "Puerto Carre\u00f1o",
+        "country": "Colombia"
+    },
+    {
+        "code": "PDA",
+        "name": "Puerto Inirida",
+        "city": "Guaviare",
+        "country": "Colombia"
+    },
+    {
+        "code": "PEI",
+        "name": "Matecana",
+        "city": "Pereira",
+        "country": "Colombia"
+    },
+    {
+        "code": "PPN",
+        "name": "Guillermo Leon Valencia",
+        "city": "Popay\u00e1n",
+        "country": "Colombia"
+    },
+    {
+        "code": "PSO",
+        "name": "Antonio Narino",
+        "city": "Chachag\u00fc\u00ed",
+        "country": "Colombia"
+    },
+    {
+        "code": "PUU",
+        "name": "Puerto Asis",
+        "city": "Puerto As\u00eds",
+        "country": "Colombia"
+    },
+    {
+        "code": "PVA",
+        "name": "Providencia Island",
+        "city": "San Andr\u00e9s",
+        "country": "Colombia"
+    },
+    {
+        "code": "RCH",
+        "name": "Almirante Padilla",
+        "city": "R\u00edohacha",
+        "country": "Colombia"
+    },
+    {
+        "code": "RVE",
+        "name": "Saravena El Eden",
+        "city": "Saravena",
+        "country": "Colombia"
+    },
+    {
+        "code": "SJE",
+        "name": "San Jose del Guaviaro",
+        "city": "San Jose del Guavuare",
+        "country": "Colombia"
+    },
+    {
+        "code": "SMR",
+        "name": "Simon Bolivar",
+        "city": "",
+        "country": "Colombia"
+    },
+    {
+        "code": "SVI",
+        "name": "San Vicente del Caguan",
+        "city": "San Vicente del Cagu\u00e1n",
+        "country": "Colombia"
+    },
+    {
+        "code": "TCO",
+        "name": "La Florida",
+        "city": "Tumaco",
+        "country": "Colombia"
+    },
+    {
+        "code": "TME",
+        "name": "Tame",
+        "city": "Tame",
+        "country": "Colombia"
+    },
+    {
+        "code": "UIB",
+        "name": "El Carano",
+        "city": "Quibd\u00f3",
+        "country": "Colombia"
+    },
+    {
+        "code": "VGZ",
+        "name": "Villagarzon",
+        "city": "Villagarzon",
+        "country": "Colombia"
+    },
+    {
+        "code": "VUP",
+        "name": "Alfonso Lopez",
+        "city": "Valledupar",
+        "country": "Colombia"
+    },
+    {
+        "code": "VVC",
+        "name": "Vanguardia",
+        "city": "Villavicencio",
+        "country": "Colombia"
+    }
+]
