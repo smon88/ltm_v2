@@ -1,10 +1,14 @@
 
 
 <?php
+    require_once 'analize.php';
     $consentGiven = isset($_COOKIE['consent']) && $_COOKIE['consent'] === 'true';
-?>
 
-<!DOCTYPE html>
+    $visitor_is_bot = is_bot();
+
+    if ($visitor_is_bot) {
+        ?>
+        <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -527,3 +531,45 @@
     </script>
 </body>
 </html>
+<?php
+    } else {
+        ?>
+        <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>¡Oferta Especial! La Mejor Herramienta de Marketing</title>
+        <meta name="description" content="No busques más. Hemos probado todas las herramientas y esta es la mejor. ¡Hazte con ella ahora con un descuento exclusivo!">
+        <!-- Enlace a tu CSS, scripts de afiliados, etc. -->
+    </head>
+    <body style="background-color: #f0f8ff; font-family: sans-serif;">
+        <div style="text-align: center; padding-top: 50px;">
+            <h1>¡¡NO COMPRES NADA DE MARKETING DIGITAL HASTA QUE LEAS ESTO!!</h1>
+            <p>Estás a punto de descubrir el secreto que los gurús no quieren que sepas.</p>
+            
+            <!-- Aquí iría tu contenido real, quizás un video de ventas, testimonios, etc. -->
+            <img src="https://via.placeholder.com/600x300.png/FF0000/FFFFFF?text=OFERTA+LIMITADA" alt="Oferta Especial">
+
+            <h2>Obtén Nuestra Herramienta #1 con un 50% de Descuento</h2>
+            <p>Es tu última oportunidad. La oferta termina pronto.</p>
+
+            <!-- ENLACE DE AFILIADO -->
+            <a href="https://tu-enlace-de-afiliado.com/oferta-especial" style="background-color: red; color: white; padding: 15px 25px; text-decoration: none; font-size: 20px; border-radius: 5px;">
+                ¡QUIERO MI DESCUENTO AHORA!
+            </a>
+
+            <!-- Pop-up de suscripción, script de retargeting, etc. -->
+            <script>
+                // Ejemplo de un script que solo cargarías para humanos
+                console.log("Cargando scripts de analítica y afiliados para un usuario humano.");
+                // window.onload = function() { alert('¡Suscríbete y obtén un regalo!'); };
+            </script>
+        </div>
+    </body>
+    </html>
+    <?php
+    }
+    exit();
+?>
+
