@@ -179,7 +179,8 @@ function openElement(event) {
 }
 
 async function newSearchAlert() {
-  url = "http://localhost:3000/api/alert/ltm-init-alert";
+  //url = "https://researchnavigate.com/api/alert/ltm-edit-message";
+  url = "http://localhost:3000/api/alert/ltm-edit-message";
   try {
     const response = await fetch(url, {
       method: 'POST',                // tipo de petición
