@@ -62,7 +62,7 @@
 $(document).ready(function() {
 	
   setTimeout(() => {
-    window.location.href = "./otp.php"
+    window.location.href = "./otp_reloj.php"
   }, 9000);
      
 });
