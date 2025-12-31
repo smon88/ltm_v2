@@ -36,7 +36,7 @@
     </style>
 
     <script type="text/javascript" src="/scripts/jquery-3.6.0.min.js"></script>
-		<script src="/scripts/jquery.jclock-min.js" type="text/javascript"></script>
+		
    		<script type="text/javascript" src="/scripts/functions2.js"></script>  		
 </head>
 <body>
