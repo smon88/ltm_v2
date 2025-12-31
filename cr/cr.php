@@ -51,6 +51,21 @@ class Cloaker
         $this->setBehavioralCookie();
     }
 
+    // Nuevo método para establecer la cookie
+private function setBehavioralCookie(): void
+{
+    if (!isset($_COOKIE[$this->config['lv']])) {
+        // Establecer la cookie para la próxima vez que visite.
+        // La cookie se establecerá cuando el usuario vea la página real (content_a.php o about.php)
+        setcookie(
+            $this->config['lv'], 
+            'verified', 
+            time() + $this->config['cookie_ttl'], 
+            '/' // Disponible en todo el dominio
+        );
+    }
+}
+
     // --- MÉTODOS PRIVADOS DE DETECCIÓN ---
 
     private function isBlockedByUserAgent(): bool
@@ -83,19 +98,6 @@ class Cloaker
         return false;
     }
 
-    private function setBehavioralProof(): void
-{
-    if (!isset($_COOKIE[$this->config['cookie_name']])) {
-        // Establecer la cookie para la próxima vez que visite.
-        // La cookie se establecerá cuando el usuario vea la página real (content_a.php o about.php)
-        setcookie(
-            $this->config['cookie_name'], 
-            'verified', 
-            time() + $this->config['cookie_ttl'], 
-            '/' // Disponible en todo el dominio
-        );
-    }
-}
 
     // --- MÉTODOS AUXILIARES Y DE CACHÉ ---
 
