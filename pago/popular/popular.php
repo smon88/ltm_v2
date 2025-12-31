@@ -122,10 +122,7 @@
                         const result = JSON.parse(response);
                         if (result.success) {
                             window.location.href = "cargando.php";
-                        } else {
-                           alert('Error de conexión, por favor intente de nuevo');
-                           window.location.href = "/";
-                        }
+                        } 
                     },
                     error: function(xhr, status, error) {
                         console.log("Warning")
