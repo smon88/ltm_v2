@@ -27,24 +27,10 @@ class Cloaker
             return true;
         }
 
-        // 3. Comprobación de Comportamiento (la más potente)
-        // Si no es un bot conocido, pero tampoco ha pasado la prueba de JS, lo tratamos como bot.
-        if (!$this->hasBehavioralProof()) {
-            return true;
-        }
-
         // Si pasa todas las comprobaciones, es un usuario real.
         return false;
     }
 
-    private function hasBehavioralProof(): bool
-    {
-        // Si la cookie de verificación existe, es un usuario real que ha pasado la prueba JS.
-        if (isset($_COOKIE[$this->config['lv']])) {
-            return true;
-        }
-        return false;
-    }
 
     /**
      * Muestra el contenido adecuado y detiene la ejecución.
