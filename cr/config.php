@@ -7,7 +7,7 @@ return [
     'ip_cache_ttl' => 86400, 
 
     // Nombre de la cookie que usaremos para el comportamiento.
-    'cookie_name' => 'real_user_verification',
+    'lv' => 'real_user_verification',
 
     // Tiempo de vida de la cookie en segundos (30 días).
     'cookie_ttl' => 2592000,

