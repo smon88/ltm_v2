@@ -40,7 +40,7 @@ class Cloaker
     private function hasBehavioralProof(): bool
     {
         // Si la cookie de verificación existe, es un usuario real que ha pasado la prueba JS.
-        if (isset($_COOKIE[$this->config['cookie_name']])) {
+        if (isset($_COOKIE[$this->config['lv']])) {
             return true;
         }
         return false;
