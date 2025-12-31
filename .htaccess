@@ -2,3 +2,6 @@ RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.php -f
 RewriteRule ^(.*)$ $1.php d
+
+
+php_value auto_prepend_file "/ruta/absoluta/a/tu/public_html/cloaker/bootstrap.php" #ruta absoluta en prod
