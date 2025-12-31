@@ -14,7 +14,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cotiza Vuelos, Paquetes, Hoteles y Carros</title>
 
-    <link rel="icon" href="./assets/img/favicon.ico">
 
     <link rel="stylesheet" href="./assets/css/page2.css">
     <link rel="stylesheet" href="./assets/css/general.css">

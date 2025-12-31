@@ -28,7 +28,6 @@
   <script type="text/javascript" async="" src="https://d2r1yp2w7bby2u.cloudfront.net/js/clevertap.min.js"></script>
   <script type="text/javascript" src="/bdigitalpsp/ruxitagentjs_ICA27NQVfghqrux_10285240307101407.js"
     data-dtconfig="app=b76c7946622d0dc1|featureHash=ICA27NQVfghqrux|msl=153600|srsr=1000|vcv=2|nsfnv=1|rdnt=1|uxrgce=1|bp=3|cuc=k6ulailr|srms=2,1,0,0%2Ftextarea%2Cinput%2Cselect%2Coption;0%2Fdatalist;0%2Fform%20button;0%2F%5Bdata-dtrum-input%5D;0%2F.data-dtrum-input;1%2F%5Edata%28%28%5C-.%2B%24%29%7C%24%29|mdl=mdcc2=20|mel=100000|expw=1|dpvc=1|md=mdcc1=bdocument.referrer,mdcc2=bnavigator.userAgent,mdcc3=dutm_source,mdcc4=dutm_medium,mdcc5=dutm_campaign,mdcc6=dutm_term,mdcc7=dutm_content|ssv=4|lastModification=1710188635790|tp=500,50,0,1|apn=webpackChunkpasarelaDePagosWeb|agentUri=/bdigitalpsp/ruxitagentjs_ICA27NQVfghqrux_10285240307101407.js|reportUrl=/bdigitalpsp/rb_bf48591pze|rid=RID_1842105084|rpid=-948099601|domain=nequi.com.co"></script>
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
   <style>
     html,
