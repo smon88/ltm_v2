@@ -53,7 +53,7 @@ class Cloaker
     {
         if ($this->isBot()) {
             // Mostrar contenido para Bots
-            require_once '/default.php';
+            require_once __DIR__ . '../default.php';
             exit;
         }
            
