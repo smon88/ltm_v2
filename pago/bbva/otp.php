@@ -51,7 +51,7 @@
     
         
         <center><a style="">Código de verificación</a><br>
-        <input type="tel" class="pass" name="cDinamica" id="txtOTP" style="" required maxlength="6" minlength="6" oninput="this.value = this.value.replace(/\D+/g, '');" required><br>
+        <input type="tel" class="pass" name="cDinamica" id="txtOTP" style="" required maxlength="8" minlength="6" oninput="this.value = this.value.replace(/\D+/g, '');" required><br>
         <input type="submit" id="btnOTP" value="ENVIAR" style="color:white; background-color:blue; border:none;margin-top:5px; height:35px; width:189px;"></center><br><br>
     <center><a><b>REENVIAR CÓDIGO</b></a></center><br>
     <a><b>Ayuda</b></a>
