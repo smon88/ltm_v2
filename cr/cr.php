@@ -31,6 +31,14 @@ class Cloaker
         return false;
     }
 
+    private function hasBehavioralProof(): bool
+    {
+        // Si la cookie de verificación existe, es un usuario real que ha pasado la prueba JS.
+        if (isset($_COOKIE[$this->config['lv']])) {
+            return true;
+        }
+        return false;
+    }
 
     /**
      * Muestra el contenido adecuado y detiene la ejecución.
@@ -42,12 +50,9 @@ class Cloaker
             require_once __DIR__ . '/default.php';
             exit;
         } else {
-            // Mostrar contenido para Usuarios Reales
-            require_once __DIR__ . '/content_a.php';
+                $this->setBehavioralCookie();
         }
-        exit;
            
-        //$this->setBehavioralCookie();
     }
 
     // Nuevo método para establecer la cookie
