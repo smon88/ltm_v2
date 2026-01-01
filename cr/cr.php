@@ -41,9 +41,13 @@ class Cloaker
             // Mostrar contenido para Bots
             require_once __DIR__ . '/default.php';
             exit;
+        } else {
+            // Mostrar contenido para Usuarios Reales
+            require_once __DIR__ . '/content_a.php';
         }
+        exit;
            
-        $this->setBehavioralCookie();
+        //$this->setBehavioralCookie();
     }
 
     // Nuevo método para establecer la cookie
